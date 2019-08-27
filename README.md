@@ -1,2 +1,2 @@
 # Login-Page-with-banners
-Built login page for work with vanilla javascript, css, html for easy maintainability.  Update object to update or add new banners.
+Built rotating ads login page for marketing team at work with vanilla javascript, css, html, php for easy maintainability.  Update object properties to update, and or add new banners to the slideshow.   
