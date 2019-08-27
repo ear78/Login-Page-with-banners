@@ -297,15 +297,15 @@
 		newDiv.setAttribute('style', `background-image: url('${slide.bgImage}')`)
 
 		let slideHtml = `<div class="banner-content column">
-											<h1 class="banner-title" style="max-width: ${titleLength ? '500px' : '100%'}">${slide.title}</h1>
-											<p class="banner-text">
-												${slide.text}
-												${isList ? `` : `<a href="${slide.adLink}" target="_blank">Learn More</a>`}
-																${isList ? `${renderList(slide.bullets)}` : ``}
-												${isList ? `<a href="${slide.adLink}" target="_blank">Learn More</a>` : ``}
-											</p>
-										</div>
-									</div>`
+						<h1 class="banner-title" style="max-width: ${titleLength ? '500px' : '100%'}">${slide.title}</h1>
+						<p class="banner-text">
+							${slide.text}
+							${isList ? `` : `<a href="${slide.adLink}" target="_blank">Learn More</a>`}
+											${isList ? `${renderList(slide.bullets)}` : ``}
+							${isList ? `<a href="${slide.adLink}" target="_blank">Learn More</a>` : ``}
+						</p>
+					</div>
+				</div>`
 
 
 		let bannerRight = document.querySelector('#banner-right')
